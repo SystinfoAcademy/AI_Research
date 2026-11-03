@@ -64,15 +64,15 @@ footer{border-top:1px solid var(--rule);padding:22px 24px;text-align:center;colo
     <h1>IA Recherche : ce que vous avez appris</h1><div class="rule"></div>
     <p>Bilan pédagogique des séances déjà dispensées. Pour chaque grand thème, vous retrouvez les notions abordées, sans détail technique, afin de situer vos acquis et de préparer la suite.</p>
     <div class="kpis">
-      <div class="kpi"><b>2</b><span>séances dispensées</span></div>
-      <div class="kpi"><b>15</b><span>grands thèmes abordés</span></div>
-      <div class="kpi"><b>Semaine 1</b><span>périmètre couvert à ce jour</span></div>
+      <div class="kpi"><b>4</b><span>séances dispensées</span></div>
+      <div class="kpi"><b>25</b><span>grands thèmes abordés</span></div>
+      <div class="kpi"><b>2 semaines</b><span>de formation couvertes à ce jour</span></div>
     </div>
-    <nav class="toc"><a href="#s1">Séance 1 · Fondations des LLM</a><a href="#s2">Séance 2 · Revue systématique avec Consensus</a></nav>
+    <nav class="toc"><a href="#s1">Séance 1 · Fondations des LLM</a><a href="#s2">Séance 2 · Revue systématique avec Consensus</a><a href="#s3">Séance 3 · Revues systématiques assistées par l'IA</a><a href="#s4">Séance 4 · RAG, Zotero et base de connaissances</a></nav>
   </div>
   
 <section class="seance" id="s1">
-  <div class="s-head"><div class="tag">Séance 1 · 3 heures</div><h2>Fondations des LLM et prompt engineering scientifique</h2><p>Comprendre comment fonctionne un modèle de langage, reconnaître ses limites et apprendre à lui poser des questions précises et vérifiables.</p></div>
+  <div class="s-head"><div class="tag">Séance 1 · Semaine 1 · 3 heures</div><h2>Fondations des LLM et prompt engineering scientifique</h2><p>Comprendre comment fonctionne un modèle de langage, reconnaître ses limites et apprendre à lui poser des questions précises et vérifiables.</p></div>
   <div class="themes">
     <article class="theme"><div class="n">01</div><div>
       <h3>Repères : l'IA et les LLM</h3><p class="lead">Situer les modèles de langage dans le paysage de l'intelligence artificielle.</p>
@@ -95,7 +95,7 @@ footer{border-top:1px solid var(--rule);padding:22px 24px;text-align:center;colo
   </div>
 </section>
 <section class="seance" id="s2">
-  <div class="s-head"><div class="tag">Séance 2 · Atelier pratique</div><h2>Revue systématique assistée avec Consensus</h2><p>Mener une revue de littérature structurée avec un moteur de recherche scientifique alimenté par l'IA, de la question de départ jusqu'au rapport.</p></div>
+  <div class="s-head"><div class="tag">Séance 2 · Semaine 1 · Atelier pratique</div><h2>Revue systématique assistée avec Consensus</h2><p>Mener une revue de littérature structurée avec un moteur de recherche scientifique alimenté par l'IA, de la question de départ jusqu'au rapport.</p></div>
   <div class="themes">
     <article class="theme"><div class="n">01</div><div>
       <h3>Comprendre la revue systématique</h3><p class="lead">Poser les bases d'une méthode rigoureuse et répétable.</p>
@@ -126,7 +126,47 @@ footer{border-top:1px solid var(--rule);padding:22px 24px;text-align:center;colo
       <ul><li><b>Cas pratique</b> : une infirmière qui cherche des preuves pour sa pratique.</li><li><b>Atelier de 20 minutes</b> : conduire sa propre recherche.</li><li><b>Quatre points de vigilance</b> : l'IA résume, c'est vous qui jugez.</li></ul></div></article>
   </div>
 </section>
+<section class="seance" id="s3">
+  <div class="s-head"><div class="tag">Séance 3 · Semaine 2 · Samedi</div><h2>Revues systématiques et méta-analyses assistées par l'IA</h2><p>De la question de recherche aux études incluses : cadrer une revue, construire une équation de recherche fiable et sélectionner les études, avec l'IA comme assistante et l'humain comme décideur.</p></div>
+  <div class="themes">
+    <article class="theme"><div class="n">01</div><div>
+      <h3>Pourquoi l'IA en revue systématique</h3><p class="lead">Comprendre les enjeux et situer l'apport de l'IA.</p>
+      <ul><li><b>Au sommet des preuves</b> : les revues et méta-analyses guident recommandations et décisions de santé.</li><li><b>Où l'IA intervient</b> dans le déroulement d'une revue.</li><li><b>Revue narrative ou systématique</b> : des outils rapides pour explorer, mais une méthode reproductible pour conclure.</li><li><b>Les cadres de référence</b> : une revue assistée par l'IA garde les mêmes exigences (PRISMA 2020, RAISE).</li></ul></div></article>
+    <article class="theme"><div class="n">02</div><div>
+      <h3>Question de recherche et protocole</h3><p class="lead">Cadrer la revue avant de chercher.</p>
+      <ul><li><b>Formuler la question avec PICO</b> et l'affiner, de la question floue à la question précise.</li><li><b>Trois types de prompts</b> pour clarifier, cadrer et valider la question avec un LLM.</li><li><b>Le protocole</b> : fixer la méthode avant de voir les résultats, avec un plan inspiré de PRISMA-P.</li><li><b>Un skill Claude dédié</b> : un mode d'emploi stable pour garder la même méthode d'une étape à l'autre.</li><li><b>Démonstrations et exercice</b> : affiner son propre PICO et rédiger un protocole.</li></ul></div></article>
+    <article class="theme"><div class="n">03</div><div>
+      <h3>L'équation de recherche</h3><p class="lead">Chercher de façon sensible, précise et reproductible.</p>
+      <ul><li><b>Sensibilité et précision</b> : ne manquer aucune étude sans noyer l'essentiel.</li><li><b>Choisir ses bases de données</b> : biomédicales et généralistes.</li><li><b>Anatomie d'une équation</b> : des blocs construits avec termes contrôlés et mots libres.</li><li><b>HeTOP</b> : retrouver les bons descripteurs à partir de termes français.</li><li><b>Claude pour assembler l'équation</b>, l'humain gardant la main sur les termes.</li><li><b>Polyglot</b> : traduire l'équation vers d'autres bases, puis la tester.</li><li><b>Valider et documenter</b> : vérifier que des articles clés connus sont retrouvés.</li><li><b>Les limites de l'IA</b> : termes inexistants, références inventées, équation mal calibrée.</li></ul></div></article>
+    <article class="theme"><div class="n">04</div><div>
+      <h3>Références et sélection des études</h3><p class="lead">Rassembler, dédoublonner puis trier les références.</p>
+      <ul><li><b>Trois outils, trois rôles</b> : Zotero pour centraliser, Rayyan pour trier en aveugle, un LLM en appui.</li><li><b>Rayyan</b> : importer, définir les critères d'éligibilité et sélectionner.</li><li><b>Le screening par LLM</b> : un prompt de sélection testé sur un échantillon.</li><li><b>Exercice</b> : un mini-corpus de 200 références à trier.</li></ul></div></article>
+    <article class="theme"><div class="n">05</div><div>
+      <h3>Limites, éthique et responsabilité</h3><p class="lead">Ce que l'IA ne remplace pas.</p>
+      <ul><li><b>Les pièges</b> : hallucinations, biais de la littérature, résultats variables.</li><li><b>Déléguer ou garder la main</b> : pour chaque étape, ce que l'IA peut aider à faire et ce que l'humain décide.</li><li><b>Usage éthique et transparence</b> : l'humain reste responsable de la revue et de ses conclusions.</li></ul></div></article>
+  </div><div class="note"><b>Prochaine étape :</b> l'extraction des données avec les outils RAG, puis les statistiques et la méta-analyse.</div>
+</section>
+<section class="seance" id="s4">
+  <div class="s-head"><div class="tag">Séance 4 · Semaine 2 · Dimanche</div><h2>Analyse de la littérature et base de connaissances avec le RAG</h2><p>Interroger son propre corpus d'articles avec des outils fondés sur le RAG, en extraire des données comparables et garder la vérification humaine au centre.</p></div>
+  <div class="themes">
+    <article class="theme"><div class="n">01</div><div>
+      <h3>Comprendre le RAG</h3><p class="lead">Savoir ce que fait un assistant qui s'appuie sur vos documents.</p>
+      <ul><li><b>Définition</b> : l'outil cherche d'abord les passages utiles dans vos documents, puis répond à partir d'eux.</li><li><b>Les étapes du RAG</b> : découper, indexer, retrouver, répondre.</li><li><b>Chatbot seul ou RAG</b> : réponse issue de la mémoire du modèle ou de vos sources citées.</li><li><b>Ce que le RAG ne garantit pas</b> : il réduit le risque d'invention sans le supprimer.</li></ul></div></article>
+    <article class="theme"><div class="n">02</div><div>
+      <h3>Le RAG au service de la rédaction</h3><p class="lead">Écrire à partir de ses sources, pas de la mémoire du modèle.</p>
+      <ul><li><b>Pourquoi le RAG compte</b> pour citer avec exactitude.</li><li><b>Section par section</b> : retrouver et vérifier, sans décider des conclusions.</li><li><b>Trois usages au quotidien</b> : synthétiser, comparer, répondre aux relecteurs.</li><li><b>Bon et mauvais usage</b>, avec les règles d'éthique et de transparence en publication.</li></ul></div></article>
+    <article class="theme"><div class="n">03</div><div>
+      <h3>Les quatre outils</h3><p class="lead">Quatre outils, quatre rôles complémentaires.</p>
+      <ul><li><b>Zotero</b> : la base de connaissances, avec collections, étiquettes, notes et annotations.</li><li><b>SciSpace</b> : dialoguer avec un article et expliquer ses passages difficiles.</li><li><b>NotebookLM</b> : un RAG sur un corpus de sources chargées, avec réponses citées.</li><li><b>Humata</b> : interroger un ou plusieurs PDF avec renvoi aux passages.</li><li><b>Comparer les outils</b> pour choisir selon le besoin.</li></ul></div></article>
+    <article class="theme"><div class="n">04</div><div>
+      <h3>Extraire et comparer</h3><p class="lead">Passer du PDF au tableau comparatif.</p>
+      <ul><li><b>Le tableau comparatif</b> : une même grille de lecture pour toutes les études.</li><li><b>La grille d'extraction</b> et des prompts types pour extraire les méthodes.</li><li><b>Contrôler cellule par cellule</b> : aucune cellule n'est validée sans le PDF.</li><li><b>Extraction pour une revue systématique</b> : double lecture humaine, l'IA préparant seulement la première extraction.</li><li><b>Démonstrations</b> avec SciSpace, Humata et NotebookLM.</li></ul></div></article>
+    <article class="theme"><div class="n">05</div><div>
+      <h3>Un assistant documentaire sur votre corpus</h3><p class="lead">Articuler Zotero et le RAG dans la durée.</p>
+      <ul><li><b>De Zotero à l'assistant</b> : collecter, trier, charger.</li><li><b>Entretenir sa base</b> : noms cohérents, pas de doublons, mises à jour.</li><li><b>Limites des versions gratuites</b> : quotas, PDF protégés, confidentialité des données.</li><li><b>Atelier en binômes</b> : charger cinq articles, demander un tableau et poser trois questions.</li></ul></div></article>
+  </div><div class="note"><b>Prochaine étape :</b> les statistiques et la méta-analyse assistées par l'IA, puis la rédaction de l'article.</div>
+</section>
 </main>
-<footer>SYSTINFO Academy · IA Recherche · Bilan pédagogique 2026-2027 · Mis à jour après la Semaine 1</footer>
+<footer>SYSTINFO Academy · IA Recherche · Bilan pédagogique 2026-2027 · Mis à jour après la Semaine 2</footer>
 </body>
 </html>
